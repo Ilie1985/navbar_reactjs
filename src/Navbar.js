@@ -11,9 +11,12 @@ const Navbar = () => {
  
   return <nav>
     <div className="nav-center">
-      <div className="nav-header"></div>
+      <div className="nav-header">
+
+        
+      </div>
       <div className="links-container show-container"></div>
-      <div className="social-icons"></div>
+      <ul className="social-icons"></ul>
     </div>
   </nav>
 }
